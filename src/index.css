@@ -1,13 +1,354 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font: 400 16px/24px "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #62646a;
+  width: 100%;
+  background: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+    /* height: 100vh; */
+    margin-left: 47px;
+    margin-right: 60px;
+}
+
+
+.app-grid {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 25px 10px;
+    padding-left: 70px;
+    /* padding-right: 60px; */
+    margin-bottom: 30px;
+    display: table;
+    width: 100%;
+    border: 1px #e5e5e5 solid;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+
+
+.app-grid span {
+  display: table-cell;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #303030;
+  text-decoration: none;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: top;
+  padding-right: 50px;
+  border-right: 1px solid #ddd;
+}
+
+.app-grid small {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  text-align: center;
+  padding: 0 0 17px;
+  min-width: 125px;
+  padding-left: 0px;
+}
+
+.btns {
+  background: #fff;
+  height: 36px;
+  border: 1px solid #b5b6ba;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: none;
+  color: #62646a;
+  padding: 9px 10px 9px 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btns {
+  position: relative;
+
+
+}
+.payments .paypal-btn i {
+  background: url(https://npm-assets.fiverrcdn.com/assets/@fiverr-private/earnings/withdrawals-icons.b809172.svg) no-repeat;
+  width: 21px;
+  height: 47px;
+  position: absolute;
+    z-index: 0;
+    top: 2px;
+    left: 5px;
+}
+
+
+.payments .bank-btn i {
+  width: 21px;
+  height: 47px;
+  position: absolute;
+  z-index: 0;
+  top: 5px;
+  left: 5px;
+}
+
+
+.tabel-filters {
+  margin-top: 10px;
+}
+.tabel-filters .MuiInput-underline {
+  position: relative;
+  background: #fff;
+  height: 36px;
+  width: 180px;
+  border: 1px solid #b5b6ba;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 100%;
+  padding-left: 0px;
+  font-weight: 500;
+  text-transform: none;
+  color: #62646a;
+  margin-right: 5px;
+}
+
+
+.tabel-filters .MuiButton-root {
+  justify-content: start;
+
+}
+
+.MuiSelect-select:focus {
+  border-radius: 0;
+  background-color: white !important;
+}
+
+ .tabel-filters .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom:  none !important;
+}
+
+.tabel-filters .Mui-focused {
+  border-bottom: none !important;
+}
+
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+  background-color: white !important;
+  color: #1dbf73 !important;
+}
+
+.MuiListItem-button:hover {
+  text-decoration: #1dbf73;
+  color: #1dbf73;
+  background-color: white !important;
+}
+
+.tabel-filters .MuiButton-root:hover {
+     background: white;
+}
+
+
+
+
+.MuiMenu-list {
+  background-color: #fff;
+  background-clip: padding-box;
+  /* position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000; */
+  float: left;
+  min-width: 180px;
+  /* padding: 5px 0; */
+  margin: 2px 0 0;
+  list-style: none;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+  color: #777;
+}
+
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.MuiTableCell-head {
+  padding: 16px !important;
+  padding-bottom: 4px !important;
+  padding-top: 6px !important;
+}
+
+.tabel-filters .MuiMenuItem-root {
+    font-size: 10px;
+    padding-top: 8px !important;
+    letter-spacing: 0px;
+    padding-bottom: 0px;
+    color: #777 !important;
+
+}
+
+.MuiListItem-root {
+  padding-bottom: 0px !important;
+}
+
+
+.MuiInput-underline:after {
+  border-bottom: 1px #ccc solid !important;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding-left: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.MuiSelect-icon {
+  top: calc(50% - 12px);
+  color: rgba(0, 0, 0, 0.54);
+  /* right: 20px !important; */
+  position: absolute;
+  pointer-events: none;
+}
+
+
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+
+
+.MuiTableCell-head {
+  font-size: 14px !important;
+  color: #999 !important;
+  font-weight: 600 !important;
+}
+
+
+ .MuiMenu-list {
+  background-color: #fff;
+  background-clip: padding-box;
+  float: left;
+  min-width: 120px !important;
+  /* padding: 5px 0; */
+  margin: 2px 0 0;
+  list-style: none;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+  color: #777;
+}
+
+.MuiMenuItem-root {
+  font-size: .9rem !important;
+}
+
+
+.clearing {
+   background: #e8e8e9;
+   border: 2px solid rgba(224, 224, 224, 1);
+   border-radius: 4px;
+   font-size: 10px;
+   font-weight: bolder;
+   color: #777;
+   padding-right: 17px;
+}
+
+.MuiMenu-list {
+  border: none;
+  border-radius: 0px !important;
+}
+
+.export-to-csv:hover {
+    border-bottom: 2px solid #4a73e8;
+}
+
+
+
+
+
+/***************************************************Media Queries***********************************************/
+@media only screen and (max-width: 1105px) {
+  .MuiGrid-grid-md-2 {
+    margin-right: 54px !important;
+    padding-bottom: 40px;
+  }
+
+
+}
+@media only screen and (max-width: 640px) {
+    .MuiGrid-grid-md-2 {
+      margin-right: 73px !important;
+  }
+
+
+}
+@media only screen and (max-width: 640px) {
+  .MuiGrid-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MuiGrid-grid-md-2 span {
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    padding-right: 10px;
+  }
+
+  .MuiGrid-grid-md-2 .last-payment {
+    border-right: 1px solid rgba(224, 224, 224, 1) !important;
+  }
+
+
+}
+@media only screen and (max-width: 674px) {
+   .payments .label {
+      font-size: 15px !important;
+      padding-right: 2px !important;
+    }
+
+    .tabel-filters label {
+      font-size: 17px !important;
+    }
+
+    .tabel-filters span {
+      font-size: 15px !important;
+      padding-left: 1px !important;
+    }
+
+
+
+}
+@media only screen and (max-width: 674px) {
+    .tabel-filters .MuiInputBase-root {
+       margin-top: 20px !important;
+    }
+    .tabel-filters .months {
+       margin-left: 62px !important;
+    }
+
+
+}
+@media only screen and (max-width: 630px) {
+    .tabel-filters .export-to-csv-wrapper {
+       margin-top: 60px !important;
+    }
+}
+@media only screen and (max-width: 446px) {
+    .payments .bank-btn {
+          margin-left: 70px;
+          margin-top: 10px;
+    }
+    .tabel-filters .MuiInputBase-root {
+          margin-left: 70px;
+          margin-top: 10px;
+    }
+    .tabel-filters .months {
+          margin-left: 0px !important;
+          margin-top: 10px;
+    }
+
+
+
 }
