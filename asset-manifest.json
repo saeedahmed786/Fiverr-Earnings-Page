@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Fiverr-Earnings-Page/static/css/main.ca6f6349.chunk.css",
+    "main.js": "/Fiverr-Earnings-Page/static/js/main.96a66633.chunk.js",
+    "main.js.map": "/Fiverr-Earnings-Page/static/js/main.96a66633.chunk.js.map",
+    "runtime-main.js": "/Fiverr-Earnings-Page/static/js/runtime-main.960eb242.js",
+    "runtime-main.js.map": "/Fiverr-Earnings-Page/static/js/runtime-main.960eb242.js.map",
+    "static/js/2.6fab471f.chunk.js": "/Fiverr-Earnings-Page/static/js/2.6fab471f.chunk.js",
+    "static/js/2.6fab471f.chunk.js.map": "/Fiverr-Earnings-Page/static/js/2.6fab471f.chunk.js.map",
+    "index.html": "/Fiverr-Earnings-Page/index.html",
+    "static/css/main.ca6f6349.chunk.css.map": "/Fiverr-Earnings-Page/static/css/main.ca6f6349.chunk.css.map",
+    "static/js/2.6fab471f.chunk.js.LICENSE.txt": "/Fiverr-Earnings-Page/static/js/2.6fab471f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.960eb242.js",
+    "static/js/2.6fab471f.chunk.js",
+    "static/css/main.ca6f6349.chunk.css",
+    "static/js/main.96a66633.chunk.js"
+  ]
+}
